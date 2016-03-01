@@ -17,7 +17,7 @@ public class Fenster extends JFrame
     setDefaultCloseOperation(EXIT_ON_CLOSE);
     getContentPane().setLayout(new FlowLayout());
 
-    JTextField textField = new JTextField("Zahl eingeben");
+    JTextField textField = new JTextField("000000");
     getContentPane().add(textField);
 
     JButton button = new JButton("Quadrieren");
@@ -62,6 +62,6 @@ class MyListener implements ActionListener
     }
 
     label.setText(ergebnisText);
-    textField.setText("Zahl eingeben");
+    textField.setText("000000");
   }
 }
